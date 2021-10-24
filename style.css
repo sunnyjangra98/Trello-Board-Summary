@@ -1,0 +1,47 @@
+body {
+  overflow-y: auto;
+}
+
+.logo {
+  height: 5%;
+  width: 6%;
+}
+
+.navbar {
+  position: relative;
+  height: 62px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+#submit:focus {
+  outline: none;
+}
+
+div.board-summary {
+  visibility: hidden;
+}
+div.board-summary.active {
+  visibility: visible;
+}
+
+div.board-summary.active > div h3 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+div.customStyle {
+  margin: auto;
+  width: 80vw;
+}
